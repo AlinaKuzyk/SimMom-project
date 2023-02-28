@@ -15,7 +15,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <PersistGate loading={null} persistor={persistor}>
         <ThemeProvider theme={theme}>
           <GlobalStyle />
-          <BrowserRouter basename="team_project_SlimMom">
+          <BrowserRouter
+            basename="
+SlimMom-project"
+          >
             <App />
           </BrowserRouter>
         </ThemeProvider>
